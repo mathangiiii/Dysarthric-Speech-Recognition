@@ -13,7 +13,7 @@ This project aims to improve the recognition of dysarthric speech using a spectr
 
 - **Mathangi N (Team Leader)**
   - Branch: B.Tech Computer Science Engineering (AI & DS)
-- **Madhav N **
+- **Madhav N**
   - Branch: B.Tech Information Technology
 
 ## Table of Contents
@@ -24,7 +24,6 @@ This project aims to improve the recognition of dysarthric speech using a spectr
 - [Technologies Used](#technologies-used)
 - [Dataset](#dataset)
 - [Approach](#approach)
-- [Model Architecture](#model-architecture)
 - [Evaluation Metrics](#evaluation-metrics)
 - [Results](#results)
 - [Contributors](#contributors)
@@ -52,19 +51,13 @@ Develop a robust system for dysarthric speech recognition that overcomes challen
 - Pandas
 
 ## Dataset
-Due to the scarcity of publicly available dysarthric speech datasets, we generated our dataset using recordings from individuals with varying degrees of dysarthria. Each recording was annotated and processed into spectrograms for training and evaluation.
+- Utilised UA Speech dataset, a curated dysarthric speech popular dataset
 
 ## Approach
 1. **Data Collection**: Gathered dysarthric speech recordings and annotated them with corresponding labels.
 2. **Spectrogram Generation**: Converted audio recordings into spectrograms to visualize speech features.
-3. **Model Training**: Developed and trained machine learning models on the spectrogram data.
-4. **Evaluation**: Assessed model performance using accuracy metrics and qualitative feedback from users.
-
-## Model Architecture
-- **Input Layer**: Spectrogram images representing dysarthric speech.
-- **Convolutional Layers**: Extract features from spectrogram images.
-- **LSTM Layers**: Capture temporal dependencies in speech patterns.
-- **Dense Layers**: Classify spectrogram features into speech categories.
+3. **Model Training**: Developed and trained machine learning models/classifiers on the spectrogram data.
+4. **Evaluation**: Assessed model performance using evaluation.
 
 ## Evaluation Metrics
 - **Accuracy**: Percentage of correctly classified dysarthric speech samples.
